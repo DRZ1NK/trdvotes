@@ -218,8 +218,3 @@ function deletegui()
 end
 
 getgenv().trdshowvotesdeletefunc = deletegui
-
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "TRD UI",
-    Text = "Loaded like a Bratz doll 💋"
-})
